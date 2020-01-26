@@ -1,0 +1,24 @@
+{
+  "name": "19_transgift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "truffle migrate --network ganache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunp/transgift.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shunp/transgift/issues"
+  },
+  "homepage": "https://github.com/shunp/transgift#readme"
+}
