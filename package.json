@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "ganache": "truffle migrate --network ganache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ganache": "truffle migrate --network ganache --reset",
+    "rinkeby": "truffle migrate --network rinkeby",
+    "test": "truffle test --network ganache --reset"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/shunp/transgift/issues"
   },
-  "homepage": "https://github.com/shunp/transgift#readme"
+  "homepage": "https://github.com/shunp/transgift#readme",
+  "dependencies": {
+    "@types/node": "^13.5.0",
+    "bip39": "^3.0.2",
+    "ethereumjs-util": "^6.2.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "ethers": "^4.0.43",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.5-rc.0"
+  }
 }
